@@ -1,0 +1,8 @@
+FONCTION f(x, y)
+  FONCTION g(y)
+    RENVOYER x + y
+    FIN
+  RENVOYER g(y) + x
+  FIN
+
+AFFICHER(f(15, 12))

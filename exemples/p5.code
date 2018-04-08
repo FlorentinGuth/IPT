@@ -1,0 +1,6 @@
+FONCTION ajoute_carre(a, b)
+carre = a * a
+RENVOYER carre + b
+FIN
+
+AFFICHER(ajoute_carre(6, 6))

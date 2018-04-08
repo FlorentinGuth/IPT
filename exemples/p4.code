@@ -1,0 +1,6 @@
+FONCTION utile()
+AFFICHER(42)
+RENVOYER 21
+FIN
+
+AFFICHER(2 * utile())

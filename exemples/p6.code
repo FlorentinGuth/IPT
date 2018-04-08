@@ -1,0 +1,8 @@
+FONCTION multiplication(a, b)
+SI a = 0
+ALORS RENVOYER 0
+FIN
+RENVOYER b + multiplication(a - 1, b)
+FIN
+
+AFFICHER(multiplication(7, 3 + 3))
